@@ -1,3 +1,3 @@
-# Créneau Facile · Easy Parallel — site
+# Créneau Facile · Easy Parallel
 
-Pages publiques de l’appli (GitHub Pages) : accueil, `privacy.html`, `support.html`, en français et en anglais.
+Site public de l’appli (GitHub Pages, https://xerxex52.github.io/Easy-Parallel/) : page de présentation, `privacy.html`, `support.html`, en français et en anglais.
