@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Créneau Facile · Easy Parallel — L’école de stationnement 3D</title>
+  <style>
+    :root { color-scheme: dark; --white: #f3f6ee; --lime: #d5f478; --muted: #a3aab4;
+      --bg: #08111c; --panel: rgba(18,28,40,.72); --line: rgba(213,244,120,.16); }
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 0 16px 72px; font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+      line-height: 1.6; color: var(--white); -webkit-font-smoothing: antialiased;
+      background: radial-gradient(circle at 85% 0, rgba(213,244,120,.08), transparent 26rem),
+                  linear-gradient(180deg, #0b1a2c 0, var(--bg) 40rem); background-color: var(--bg); }
+    .page { max-width: 46rem; margin-inline: auto; }
+    .wide { max-width: 64rem; margin-inline: auto; }
+    .site-header { border-bottom: 1px solid var(--line); margin: 0 -16px 40px; padding: 0 16px; }
+    .site-header .inner { max-width: 64rem; margin-inline: auto; min-height: 68px; display: flex; align-items: center; gap: 12px; }
+    .site-header img { width: 36px; height: 36px; border-radius: 9px; }
+    .site-header a { color: inherit; text-decoration: none; font-weight: 800; letter-spacing: -.02em; font-size: 1.08rem; }
+    .site-header nav { margin-left: auto; display: flex; gap: 18px; font-size: .92rem; }
+    .site-header nav a { font-weight: 600; color: var(--muted); }
+    h1 { font-size: 1.75rem; letter-spacing: -.02em; margin: 0 0 14px; line-height: 1.2; }
+    h2 { font-size: 1.08rem; margin-top: 2.2rem; color: var(--lime); }
+    p, li { color: var(--muted); }
+    strong { color: var(--white); }
+    a { color: var(--lime); }
+    nav.langs { margin-bottom: 2rem; font-size: .92rem; display: flex; gap: 20px; flex-wrap: wrap; }
+    nav.langs a { text-decoration: none; font-weight: 600; }
+    hr { border: none; border-top: 1px solid var(--line); margin: 3rem 0; }
+    footer { font-size: .86rem; color: var(--muted); margin-top: 2.5rem; border-top: 1px solid var(--line); padding-top: 20px; }
+    ul { padding-left: 1.25rem; }
+    .hero { display: flex; gap: 22px; align-items: center; margin: 8px 0 28px; }
+    .hero img { width: 104px; height: 104px; border-radius: 24px; flex: none; box-shadow: 0 10px 30px rgba(0,0,0,.4); }
+    .hero h1 { font-size: 2.2rem; margin: 0; }
+    .hero .tag { color: var(--lime); font-weight: 700; margin: 4px 0 0; }
+    .shots img { width: 100%; height: auto; border-radius: 16px; display: block; margin: 0 0 18px; border: 1px solid var(--line); }
+    .badge { display: inline-block; padding: 10px 18px; border-radius: 999px; border: 1px solid var(--line); color: var(--white); font-weight: 700; margin: 6px 0 26px; }
+    @media (max-width: 560px) { .hero { flex-direction: column; align-items: flex-start; } .hero h1 { font-size: 1.8rem; } }
+  </style>
+  <link rel="icon" type="image/png" href="assets/app-icon.png">
+</head>
+<body>
+  <header class="site-header">
+    <div class="inner">
+      <img src="assets/app-icon.png" alt="">
+      <a href="./">Créneau Facile · Easy Parallel</a>
+      <nav><a href="support.html">Assistance / Support</a><a href="privacy.html">Confidentialité / Privacy</a></nav>
+    </div>
+  </header>
+  <div class="wide">
+  <nav class="langs"><a href="#fr">Français</a><a href="#en">English</a></nav>
+  <section id="fr" lang="fr">
+    <div class="hero"><img src="assets/app-icon.png" alt="Icône de Créneau Facile">
+      <div><h1>Créneau Facile</h1><p class="tag">L’école de stationnement 3D</p></div></div>
+    <p>Apprenez à vous garer comme en voiture : assis à la place du conducteur, avec les repères qu’utilisent les moniteurs d’auto-école. Vous voyez ce qu’il faut regarder, au moment où il faut le regarder — dans le pare-brise, par-dessus l’épaule et dans les rétroviseurs.</p>
+    <ul>
+      <li><strong>Voir, comprendre, puis faire :</strong> démonstration commentée, petite voiture à pousser du doigt, puis au volant (Guidé, Repères, Examen).</li>
+      <li><strong>Toutes les manœuvres :</strong> créneau à droite et à gauche, sortie de place, bataille et épi.</li>
+      <li><strong>Comme dans la rue :</strong> vrais rétroviseurs, caméra de recul et radar, de jour, de nuit ou sous la pluie.</li>
+      <li><strong>Vos progrès :</strong> un bilan précis à chaque essai, avec votre trajectoire à côté de l’idéale.</li>
+    </ul>
+    <span class="badge">Bientôt sur l’App Store · iPhone</span>
+    <div class="shots"><img src="assets/banner-1-fr.jpg" alt="Le créneau, enfin facile"><img src="assets/banner-2-fr.jpg" alt="Sachez exactement où regarder"><img src="assets/banner-3-fr.jpg" alt="Créneau, bataille et épi"></div>
+  </section>
+  <hr>
+  <section id="en" lang="en">
+    <div class="hero"><img src="assets/app-icon.png" alt="Easy Parallel icon">
+      <div><h1>Easy Parallel</h1><p class="tag">The 3D parking school</p></div></div>
+    <p>Learn to park the way you do in a real car: from the driver’s seat, with the cues driving instructors use. You see what to look at, right when to look at it — through the windshield, over your shoulder and in the mirrors.</p>
+    <ul>
+      <li><strong>Watch, understand, then do it:</strong> a guided demo, a toy car you push with a finger, then Take the Wheel (Guided, Cues, Test).</li>
+      <li><strong>Every maneuver:</strong> parallel parking on both sides, pulling out, perpendicular and angled parking.</li>
+      <li><strong>Just like the street:</strong> real mirrors, backup camera and sensors, by day, at night or in the rain.</li>
+      <li><strong>Your progress:</strong> a precise review after every attempt, with your path next to the ideal one.</li>
+    </ul>
+    <span class="badge">Coming soon to the App Store · iPhone</span>
+    <div class="shots"><img src="assets/banner-1-en.jpg" alt="Parallel parking, made easy"><img src="assets/banner-2-en.jpg" alt="Know exactly where to look"><img src="assets/banner-3-en.jpg" alt="Parallel, perpendicular, angled"></div>
+  </section>
+
+  <footer>© 2026 Simorgh — Créneau Facile (FR) · Easy Parallel (EN). iPhone.</footer>
+  </div>
+</body>
+</html>
