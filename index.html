@@ -1,154 +1,155 @@
-<!DOCTYPEhtml>
-<htmllang="fr"data-lang="fr">
+<!DOCTYPE html>
+<html lang="fr" data-lang="fr">
 <head>
-<metacharset="utf-8">
-<metaname="viewport"content="width=device-width,initial-scale=1">
-<title>CréneauFacile·EasyParallel—L’écoledestationnement3D</title>
-<metaname="description"content="Apprenezlecréneau,labatailleetl’épidepuislesiègeduconducteur,en3D,aveclesrepèresdesmoniteursd’auto-école.iPhone,4,99€.">
-<metaproperty="og:title"content="CréneauFacile—Lecréneau,enfinfacile.">
-<metaproperty="og:description"content="L’écoledestationnement3DsuriPhone:vuedusiège,vraisrétroviseurs,caméraderecul.">
-<metaproperty="og:image"content="https://xerxex52.github.io/Easy-Parallel/assets/b01-fr.jpg">
-<metaname="apple-itunes-app"content="app-id=6836559840">
-<linkrel="icon"type="image/png"href="assets/app-icon.png">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Créneau Facile · Easy Parallel — L’école de stationnement 3D</title>
+<meta name="description" content="Apprenez le créneau, la bataille et l’épi depuis le siège du conducteur, en 3D, avec les repères des moniteurs d’auto-école. iPhone, 4,99 €.">
+<meta property="og:title" content="Créneau Facile — Le créneau, enfin facile.">
+<meta property="og:description" content="L’école de stationnement 3D sur iPhone : vue du siège, vrais rétroviseurs, caméra de recul.">
+<meta property="og:image" content="https://xerxex52.github.io/Easy-Parallel/assets/b01-fr.jpg">
+<meta name="apple-itunes-app" content="app-id=6836559840">
+<link rel="icon" type="image/png" href="assets/app-icon.png">
 <script>
-(function(){varh=document.documentElement;functionset(l){h.setAttribute('data-lang',l);h.lang=l;try{localStorage.setItem('lang',l)}catch(e){}}
-varq=(location.search.match(/lang=(fr|en)/)||[])[1],s=null;try{s=localStorage.getItem('lang')}catch(e){}
+(function(){var h=document.documentElement;function set(l){h.setAttribute('data-lang',l);h.lang=l;try{localStorage.setItem('lang',l)}catch(e){}}
+var q=(location.search.match(/lang=(fr|en)/)||[])[1],s=null;try{s=localStorage.getItem('lang')}catch(e){}
 set(q||s||((navigator.language||'fr').toLowerCase().indexOf('fr')===0?'fr':'en'));
-document.addEventListener('click',function(e){varb=e.target.closest('.switch');if(b){set(b.getAttribute('data-to'));window.scrollTo(0,0)}})})();
+document.addEventListener('click',function(e){var b=e.target.closest('.switch');if(b){set(b.getAttribute('data-to'));window.scrollTo(0,0)}})})();
 </script>
 <style>
 :root{color-scheme:dark;--bg:#07101b;--bg2:#0c1a2b;--panel:#101e30;--line:rgba(213,244,120,.18);--lime:#d5f478;--white:#f4f7ef;--muted:#a6afba}
 *{box-sizing:border-box}html{scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--white);font-family:-apple-system,BlinkMacSystemFont,"SFProDisplay","SegoeUI",sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+body{margin:0;background:var(--bg);color:var(--white);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
 img,video{max-width:100%;display:block}a{color:var(--lime)}
-html[data-lang=fr].lang-en,html[data-lang=en].lang-fr{display:none}
-.wrap{max-width:72rem;margin:0auto;padding:016px}.narrow{max-width:52rem}.center{text-align:center}.narrowp{max-width:46rem;margin-left:auto;margin-right:auto}
-.top{position:sticky;top:0;z-index:5;background:rgba(7,16,27,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1pxsolidvar(--line)}
-.top.inner{max-width:72rem;margin:0auto;padding:016px;min-height:64px;display:flex;align-items:center;gap:18px}
+html[data-lang=fr] .lang-en,html[data-lang=en] .lang-fr{display:none}
+.wrap{max-width:72rem;margin:0 auto;padding:0 16px}.narrow{max-width:52rem}.center{text-align:center}.narrowp{max-width:46rem;margin-left:auto;margin-right:auto}
+.top{position:sticky;top:0;z-index:5;background:rgba(7,16,27,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.top .inner{max-width:72rem;margin:0 auto;padding:0 16px;min-height:64px;display:flex;align-items:center;gap:18px}
 .brand{display:flex;align-items:center;gap:10px;color:var(--white);text-decoration:none;font-weight:800;letter-spacing:-.02em}
-.brandimg{width:34px;height:34px;border-radius:9px}
-.links{display:flex;gap:20px;margin-left:auto}.linksa{color:var(--muted);text-decoration:none;font-weight:600;font-size:.94rem}.linksa:hover{color:var(--white)}
-.switch{background:none;border:1pxsolidvar(--line);color:var(--white);border-radius:999px;padding:6px12px;font-weight:700;cursor:pointer}
-.nav-cta{background:var(--lime);color:#0b1a12;text-decoration:none;font-weight:800;border-radius:999px;padding:8px16px;font-size:.94rem}
-.hero{padding:72px056px;background:radial-gradient(60rem30remat80%-10%,rgba(213,244,120,.13),transparent60%),linear-gradient(180deg,var(--bg2),var(--bg))}
-.hero.wrap{display:grid;grid-template-columns:1fr1.25fr;gap:44px;align-items:center}
-.eyebrow{color:var(--lime);font-weight:800;text-transform:uppercase;letter-spacing:.14em;font-size:.82rem;margin:0012px}
-h1{font-size:clamp(2.4rem,5.4vw,4.2rem);line-height:1.02;letter-spacing:-.035em;margin:0018px;font-weight:900}
-.accent{color:var(--lime)}.lead{color:var(--muted);font-size:1.15rem;margin:0026px;max-width:34rem}
+.brand img{width:34px;height:34px;border-radius:9px}
+.links{display:flex;gap:20px;margin-left:auto}.links a{color:var(--muted);text-decoration:none;font-weight:600;font-size:.94rem}.links a:hover{color:var(--white)}
+.switch{background:none;border:1px solid var(--line);color:var(--white);border-radius:999px;padding:6px 12px;font-weight:700;cursor:pointer}
+.nav-cta{background:var(--lime);color:#0b1a12;text-decoration:none;font-weight:800;border-radius:999px;padding:8px 16px;font-size:.94rem}
+.hero{padding:72px 0 56px;background:radial-gradient(60rem 30rem at 80% -10%,rgba(213,244,120,.13),transparent 60%),linear-gradient(180deg,var(--bg2),var(--bg))}
+.hero .wrap{display:grid;grid-template-columns:1fr 1.25fr;gap:44px;align-items:center}
+.eyebrow{color:var(--lime);font-weight:800;text-transform:uppercase;letter-spacing:.14em;font-size:.82rem;margin:0 0 12px}
+h1{font-size:clamp(2.4rem,5.4vw,4.2rem);line-height:1.02;letter-spacing:-.035em;margin:0 0 18px;font-weight:900}
+.accent{color:var(--lime)}.lead{color:var(--muted);font-size:1.15rem;margin:0 0 26px;max-width:34rem}
 .actions{display:flex;gap:12px;flex-wrap:wrap}
-.btn{display:inline-block;text-decoration:none;font-weight:800;border-radius:14px;padding:14px22px;font-size:1.02rem}
-.btn.primary{background:var(--lime);color:#0b1a12;box-shadow:010px30pxrgba(213,244,120,.18)}.btn.ghost{border:1pxsolidvar(--line);color:var(--white)}
-.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px}.chipsspan{border:1pxsolidvar(--line);border-radius:999px;padding:5px12px;font-size:.86rem;color:var(--muted)}
-.hero-shot{border-radius:20px;border:1pxsolidvar(--line);box-shadow:030px80pxrgba(0,0,0,.5)}
-.section{padding:80px0}.soft{background:linear-gradient(180deg,#0a1626,#0b1828)}
-h2{font-size:clamp(1.8rem,3.4vw,2.6rem);letter-spacing:-.03em;line-height:1.1;margin:0012px;font-weight:900}
-.sub{color:var(--muted);font-size:1.08rem;margin:0032px}.small{font-size:.95rem;margin-top:36px}
-video{width:100%;border-radius:18px;border:1pxsolidvar(--line);background:#000;aspect-ratio:1920/886}
+.btn{display:inline-block;text-decoration:none;font-weight:800;border-radius:14px;padding:14px 22px;font-size:1.02rem}
+.btn.primary{background:var(--lime);color:#0b1a12;box-shadow:0 10px 30px rgba(213,244,120,.18)}.btn.ghost{border:1px solid var(--line);color:var(--white)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px}.chips span{border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:.86rem;color:var(--muted)}
+.hero-shot{border-radius:20px;border:1px solid var(--line);box-shadow:0 30px 80px rgba(0,0,0,.5)}
+.section{padding:80px 0}.soft{background:linear-gradient(180deg,#0a1626,#0b1828)}
+h2{font-size:clamp(1.8rem,3.4vw,2.6rem);letter-spacing:-.03em;line-height:1.1;margin:0 0 12px;font-weight:900}
+.sub{color:var(--muted);font-size:1.08rem;margin:0 0 32px}.small{font-size:.95rem;margin-top:36px}
+video{width:100%;border-radius:18px;border:1px solid var(--line);background:#000;aspect-ratio:1920/886}
 .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
-.card{background:var(--panel);border:1pxsolidvar(--line);border-radius:18px;overflow:hidden}
-.cardimg{aspect-ratio:2868/1320;object-fit:cover;width:100%}.cardh3{margin:16px18px6px;font-size:1.2rem;color:var(--lime)}.cardp{margin:018px20px;color:var(--muted)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:18px;overflow:hidden}
+.card img{aspect-ratio:2868/1320;object-fit:cover;width:100%}
+.gallery img{aspect-ratio:2868/1320;object-fit:cover;width:100%}.card h3{margin:16px 18px 6px;font-size:1.2rem;color:var(--lime)}.card p{margin:0 18px 20px;color:var(--muted)}
 .gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin-bottom:28px}
-.galleryfigure{margin:0}.galleryimg{border-radius:16px;border:1pxsolidvar(--line)}.galleryfigcaption{color:var(--muted);font-size:.92rem;margin-top:8px}
-.ticks{list-style:none;padding:0;display:grid;grid-template-columns:repeat(2,1fr);gap:10px28px;max-width:52rem;margin:0auto}
-.ticksli{color:var(--white);padding-left:28px;position:relative}.ticksli:before{content:"✓";position:absolute;left:0;color:var(--lime);font-weight:900}
-.price{background:var(--panel);border:1pxsolidvar(--line);border-radius:24px;padding:40px24px}.price-icon{width:84px;height:84px;border-radius:20px;margin:0auto18px}
-.note{color:var(--lime);font-weight:700;margin:-12px024px}
-.faqdetails{background:var(--panel);border:1pxsolidvar(--line);border-radius:14px;padding:16px18px;margin-bottom:10px}
-.faqsummary{cursor:pointer;font-weight:700}.faqp{color:var(--muted);margin:10px00}
-.final{padding:72px0;background:radial-gradient(40rem20remat50%120%,rgba(213,244,120,.16),transparent70%)}
-footer{border-top:1pxsolidvar(--line);padding:26px0;color:var(--muted);font-size:.9rem}footera{color:var(--muted)}
-@media(max-width:860px){.hero.wrap{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.links{display:none}.switch{margin-left:auto}}
-@media(max-width:560px){.gallery,.ticks{grid-template-columns:1fr}.hero{padding-top:44px}.section{padding:56px0}.nav-cta{display:none}}
+.gallery figure{margin:0}.gallery img{border-radius:16px;border:1px solid var(--line)}.gallery figcaption{color:var(--muted);font-size:.92rem;margin-top:8px}
+.ticks{list-style:none;padding:0;display:grid;grid-template-columns:repeat(2,1fr);gap:10px 28px;max-width:52rem;margin:0 auto}
+.ticks li{color:var(--white);padding-left:28px;position:relative}.ticks li:before{content:"✓";position:absolute;left:0;color:var(--lime);font-weight:900}
+.price{background:var(--panel);border:1px solid var(--line);border-radius:24px;padding:40px 24px}.price-icon{width:84px;height:84px;border-radius:20px;margin:0 auto 18px}
+.note{color:var(--lime);font-weight:700;margin:-12px 0 24px}
+.faq details{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin-bottom:10px}
+.faq summary{cursor:pointer;font-weight:700}.faq p{color:var(--muted);margin:10px 0 0}
+.final{padding:72px 0;background:radial-gradient(40rem 20rem at 50% 120%,rgba(213,244,120,.16),transparent 70%)}
+footer{border-top:1px solid var(--line);padding:26px 0;color:var(--muted);font-size:.9rem}footer a{color:var(--muted)}
+@media (max-width:860px){.hero .wrap{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.links{display:none}.switch{margin-left:auto}}
+@media (max-width:560px){.gallery,.ticks{grid-template-columns:1fr}.hero{padding-top:44px}.section{padding:56px 0}.nav-cta{display:none}}
 </style>
 </head>
 <body>
 
-<divclass="lang-fr"lang="fr">
-<headerclass="top"><divclass="inner">
-<aclass="brand"href="#"><imgsrc="assets/app-icon.png"alt=""><span>CréneauFacile</span></a>
-<navclass="links"><ahref="#methode-fr">Laméthode</a><ahref="#video-fr">Vidéo</a><ahref="#manoeuvres-fr">Manœuvres</a><ahref="#prix-fr">Prix</a></nav>
-<buttonclass="switch"type="button"data-to="en">EN</button>
-<aclass="nav-cta"href="https://apps.apple.com/app/id6836559840"rel="noopener">Télécharger</a>
-</div></header>
-<main>
-<sectionclass="hero"><divclass="wrap">
-<divclass="hero-text">
-<pclass="eyebrow">L’écoledestationnement3D</p>
-<h1>Lecréneau,<br><spanclass="accent">enfinfacile.</span></h1>
-<pclass="lead">Apprenezàvousgarercommedansunevraievoiture:assisàlaplaceduconducteur,aveclesrepèresdesmoniteursd’auto-école.Vousvoyezexactementoùregarder,aubonmoment.</p>
-<divclass="actions"><aclass="btnprimary"href="https://apps.apple.com/app/id6836559840"rel="noopener">Surl’AppStore—4,99€</a><aclass="btnghost"href="#video-fr">▶Voirlavidéo</a></div>
-<divclass="chips"><span>Vuedusiège</span><span>Vraisrétroviseurs</span><span>Caméraderecul</span><span>Français·English</span></div>
-</div>
-<imgclass="hero-shot"src="assets/b01-fr.jpg"alt="Lecréneau,enfinfacile:vuedusiègedansl’appli">
-</div></section>
-<sectionclass="section"id="video-fr"><divclass="wrapnarrowcenter">
-<h2>30secondespourcomprendre.</h2><pclass="sub">Filmédansl’appli:ladémovuedusiège,leregarddanslerétro,lapetitevoiture,laconduite,dejourcommedenuit.</p>
-<videocontrolsplaysinlinepreload="none"poster="assets/b03-fr.jpg"src="assets/video-fr.mp4"></video>
-</div></section>
-<sectionclass="sectionsoft"id="methode-fr"><divclass="wrap">
-<h2class="center">Voir,comprendre,puisfaire.</h2><pclass="subcenter">Lamêmeméthodequ’enleçon,àvotrerythme,autantdefoisqu’illefaut.</p>
-<divclass="cards"><articleclass="card"><imgsrc="assets/b03-fr.jpg"alt="Regardez"loading="lazy"><h3>Regardez</h3><p>Ladémos’arrêtesurchaquerepèreetl’explique,avecunevuedudessuspoursavoiroùvousêtes.</p></article><articleclass="card"><imgsrc="assets/b04-fr.jpg"alt="Comprenez"loading="lazy"><h3>Comprenez</h3><p>Poussezlapetitevoituredudoigt:voyezcommentellepivoteautourdesesrouesarrière.</p></article><articleclass="card"><imgsrc="assets/b05-fr.jpg"alt="Faites-le"loading="lazy"><h3>Faites-le</h3><p>Prenezlevolant:marcheavantetarrière,rétros,caméraderecul.Guidé,puisRepères,puisExamen.</p></article></div>
-</div></section>
-<sectionclass="section"id="manoeuvres-fr"><divclass="wrap">
-<h2class="center">Touteslesmanœuvres.Touteslessituations.</h2><pclass="subcenternarrowp">Créneauàdroiteetàgauche,sortiedeplace,batailleenmarcheavantouarrière,épi.Desplaceslargesauxtrèsserrées,encentre-ville,enrésidenceouenborddemer,dejour,denuitousouslapluie.</p>
-<divclass="gallery"><figure><imgsrc="assets/b02-fr.jpg"alt="Leregardpar-dessusl’épaule"loading="lazy"><figcaption>Leregardpar-dessusl’épaule</figcaption></figure><figure><imgsrc="assets/b06-fr.jpg"alt="Batailleetépi"loading="lazy"><figcaption>Batailleetépi</figcaption></figure><figure><imgsrc="assets/b07-fr.jpg"alt="Denuitetsouslapluie"loading="lazy"><figcaption>Denuitetsouslapluie</figcaption></figure><figure><imgsrc="assets/b08-fr.jpg"alt="Unbilanprécisàchaqueessai"loading="lazy"><figcaption>Unbilanprécisàchaqueessai</figcaption></figure></div>
-<ulclass="ticks"><li>Créneauentroistemps(45°)ouendeuxtemps</li><li>Batailleenmarchearrièreouenmarcheavant,etépi</li><li>Voituregaréedetravers,poteau,camionnette,trottoirhaut</li><li>Circulationavecpiétonetcycliste</li><li>«Mavoiture»:laleçonprendlatailledevotremodèle</li><li>«Dansmavoiture»:uncopiloteàlavoix,àl’arrêt</li></ul>
-</div></section>
-<sectionclass="sectionsoft"id="prix-fr"><divclass="wrapnarrowcenter">
-<divclass="price"><imgsrc="assets/app-icon.png"alt=""class="price-icon"><h2>4,99€.Unefois.Toutestinclus.</h2><pclass="sub">Pasd’abonnement,pasdepublicité,pasd’achatintégré.Touteslesmanœuvresettouslesniveaux,pourtoujours.</p>
-<pclass="note">Moinscherqu’unquartd’heuredeleçondeconduite.</p><aclass="btnprimary"href="https://apps.apple.com/app/id6836559840"rel="noopener">Surl’AppStore—4,99€</a></div>
-</div></section>
-<sectionclass="section"><divclass="wrapnarrow">
-<h2class="center">Questionsfréquentes</h2><divclass="faq"><details><summary>Est-cequeçaremplacel’auto-école?</summary><p>Non.CréneauFacilevousfaitcomprendrelestrajectoiresetlesrepèresavantetentrevosleçons.Ilneremplacepasunenseignantdelaconduite.</p></details><details><summary>Surquelsappareils?</summary><p>iPhone.L’appliestenfrançaisetenanglais.</p></details><details><summary>Faut-ilinternet?</summary><p>Non,toutfonctionnehorsligne,sauflarecherched’unmodèledevoitureabsentducatalogue.</p></details><details><summary>Unequestion,unproblème?</summary><p>Écrivez-nousdepuislapaged’assistance,onrépondenfrançaisouenanglais.</p></details></div>
-<pclass="centersubsmall">🔒<strong>VosdonnéesrestentsurvotreiPhone.</strong>Aucuncompte,aucunecollecte,aucunpistage.Lirela<ahref="privacy.html#fr">politiquedeconfidentialité</a>.</p>
-</div></section>
-<sectionclass="final"><divclass="wrapcenter"><h2>Prêtàréussirvotrecréneau?</h2><aclass="btnprimary"href="https://apps.apple.com/app/id6836559840"rel="noopener">Surl’AppStore—4,99€</a></div></section>
-</main>
-<footer><divclass="wrap">©2026Simorgh·CréneauFacile·<ahref="support.html#fr">Assistance</a>·<ahref="privacy.html#fr">Confidentialité</a></div></footer>
+<div class="lang-fr" lang="fr">
+  <header class="top"><div class="inner">
+    <a class="brand" href="#"><img src="assets/app-icon.png" alt=""><span>Créneau Facile</span></a>
+    <nav class="links"><a href="#methode-fr">La méthode</a><a href="#video-fr">Vidéo</a><a href="#manoeuvres-fr">Manœuvres</a><a href="#prix-fr">Prix</a></nav>
+    <button class="switch" type="button" data-to="en">EN</button>
+    <a class="nav-cta" href="https://apps.apple.com/app/id6836559840" rel="noopener">Télécharger</a>
+  </div></header>
+  <main>
+    <section class="hero"><div class="wrap">
+      <div class="hero-text">
+        <p class="eyebrow">L’école de stationnement 3D</p>
+        <h1>Le créneau,<br><span class="accent">enfin facile.</span></h1>
+        <p class="lead">Apprenez à vous garer comme dans une vraie voiture : assis à la place du conducteur, avec les repères des moniteurs d’auto-école. Vous voyez exactement où regarder, au bon moment.</p>
+        <div class="actions"><a class="btn primary" href="https://apps.apple.com/app/id6836559840" rel="noopener"> Sur l’App Store — 4,99 €</a><a class="btn ghost" href="#video-fr">▶ Voir la vidéo</a></div>
+        <div class="chips"><span>Vue du siège</span><span>Vrais rétroviseurs</span><span>Caméra de recul</span><span>Français · English</span></div>
+      </div>
+      <img class="hero-shot" src="assets/s-seat-fr.jpg" alt="Le créneau, enfin facile : vue du siège dans l’appli">
+    </div></section>
+    <section class="section" id="video-fr"><div class="wrap narrow center">
+      <h2>30 secondes pour comprendre.</h2><p class="sub">Filmé dans l’appli : la démo vue du siège, le regard dans le rétro, la petite voiture, la conduite, de jour comme de nuit.</p>
+      <video controls playsinline preload="none" poster="assets/s-exterior-fr.jpg" src="assets/video-fr.mp4"></video>
+    </div></section>
+    <section class="section soft" id="methode-fr"><div class="wrap">
+      <h2 class="center">Voir, comprendre, puis faire.</h2><p class="sub center">La même méthode qu’en leçon, à votre rythme, autant de fois qu’il le faut.</p>
+      <div class="cards"><article class="card"><img src="assets/s-exterior-fr.jpg" alt="Regardez" loading="lazy"><h3>Regardez</h3><p>La démo s’arrête sur chaque repère et l’explique, avec une vue du dessus pour savoir où vous êtes.</p></article><article class="card"><img src="assets/s-toy-fr.jpg" alt="Comprenez" loading="lazy"><h3>Comprenez</h3><p>Poussez la petite voiture du doigt : voyez comment elle pivote autour de ses roues arrière.</p></article><article class="card"><img src="assets/s-camera-fr.jpg" alt="Faites-le" loading="lazy"><h3>Faites-le</h3><p>Prenez le volant : marche avant et arrière, rétros, caméra de recul. Guidé, puis Repères, puis Examen.</p></article></div>
+    </div></section>
+    <section class="section" id="manoeuvres-fr"><div class="wrap">
+      <h2 class="center">Toutes les manœuvres. Toutes les situations.</h2><p class="sub center narrowp">Créneau à droite et à gauche, sortie de place, bataille en marche avant ou arrière, épi. Des places larges aux très serrées, en centre-ville, en résidence ou en bord de mer, de jour, de nuit ou sous la pluie.</p>
+      <div class="gallery"><figure><img src="assets/s-shoulder-fr.jpg" alt="Le regard par-dessus l’épaule" loading="lazy"><figcaption>Le regard par-dessus l’épaule</figcaption></figure><figure><img src="assets/s-maneuver-fr.jpg" alt="Bataille et épi" loading="lazy"><figcaption>Bataille et épi</figcaption></figure><figure><img src="assets/s-night-fr.jpg" alt="De nuit et sous la pluie" loading="lazy"><figcaption>De nuit et sous la pluie</figcaption></figure><figure><img src="assets/s-review-fr.jpg" alt="Un bilan précis à chaque essai" loading="lazy"><figcaption>Un bilan précis à chaque essai</figcaption></figure></div>
+      <ul class="ticks"><li>Créneau en trois temps (45°) ou en deux temps</li><li>Bataille en marche arrière ou en marche avant, et épi</li><li>Voiture garée de travers, poteau, camionnette, trottoir haut</li><li>Circulation avec piéton et cycliste</li><li>« Ma voiture » : la leçon prend la taille de votre modèle</li><li>« Dans ma voiture » : un copilote à la voix, à l’arrêt</li></ul>
+    </div></section>
+    <section class="section soft" id="prix-fr"><div class="wrap narrow center">
+      <div class="price"><img src="assets/app-icon.png" alt="" class="price-icon"><h2>4,99 €. Une fois. Tout est inclus.</h2><p class="sub">Pas d’abonnement, pas de publicité, pas d’achat intégré. Toutes les manœuvres et tous les niveaux, pour toujours.</p>
+        <p class="note">Moins cher qu’un quart d’heure de leçon de conduite.</p><a class="btn primary" href="https://apps.apple.com/app/id6836559840" rel="noopener"> Sur l’App Store — 4,99 €</a></div>
+    </div></section>
+    <section class="section"><div class="wrap narrow">
+      <h2 class="center">Questions fréquentes</h2><div class="faq"><details><summary>Est-ce que ça remplace l’auto-école ?</summary><p>Non. Créneau Facile vous fait comprendre les trajectoires et les repères avant et entre vos leçons. Il ne remplace pas un enseignant de la conduite.</p></details><details><summary>Sur quels appareils ?</summary><p>iPhone. L’appli est en français et en anglais.</p></details><details><summary>Faut-il internet ?</summary><p>Non, tout fonctionne hors ligne, sauf la recherche d’un modèle de voiture absent du catalogue.</p></details><details><summary>Une question, un problème ?</summary><p>Écrivez-nous depuis la page d’assistance, on répond en français ou en anglais.</p></details></div>
+      <p class="center sub small">🔒 <strong>Vos données restent sur votre iPhone.</strong> Aucun compte, aucune collecte, aucun pistage. Lire la <a href="privacy.html#fr">politique de confidentialité</a>.</p>
+    </div></section>
+    <section class="final"><div class="wrap center"><h2>Prêt à réussir votre créneau ?</h2><a class="btn primary" href="https://apps.apple.com/app/id6836559840" rel="noopener"> Sur l’App Store — 4,99 €</a></div></section>
+  </main>
+  <footer><div class="wrap">© 2026 Simorgh · Créneau Facile · <a href="support.html#fr">Assistance</a> · <a href="privacy.html#fr">Confidentialité</a></div></footer>
 </div>
 
-<divclass="lang-en"lang="en">
-<headerclass="top"><divclass="inner">
-<aclass="brand"href="#"><imgsrc="assets/app-icon.png"alt=""><span>EasyParallel</span></a>
-<navclass="links"><ahref="#methode-en">Themethod</a><ahref="#video-en">Video</a><ahref="#manoeuvres-en">Maneuvers</a><ahref="#prix-en">Price</a></nav>
-<buttonclass="switch"type="button"data-to="fr">FR</button>
-<aclass="nav-cta"href="https://apps.apple.com/app/id6836559840"rel="noopener">Download</a>
-</div></header>
-<main>
-<sectionclass="hero"><divclass="wrap">
-<divclass="hero-text">
-<pclass="eyebrow">The3Dparkingschool</p>
-<h1>Parallelparking,<br><spanclass="accent">madeeasy.</span></h1>
-<pclass="lead">Learntoparkthewayyoudoinarealcar:fromthedriver’sseat,withthecuesdrivinginstructorsuse.Youseeexactlywheretolook,rightontime.</p>
-<divclass="actions"><aclass="btnprimary"href="https://apps.apple.com/app/id6836559840"rel="noopener">OntheAppStore</a><aclass="btnghost"href="#video-en">▶Watchthevideo</a></div>
-<divclass="chips"><span>Driver’sview</span><span>Realmirrors</span><span>Backupcamera</span><span>English·Français</span></div>
-</div>
-<imgclass="hero-shot"src="assets/b01-en.jpg"alt="Parallelparking,madeeasy:thedriver’sviewintheapp">
-</div></section>
-<sectionclass="section"id="video-en"><divclass="wrapnarrowcenter">
-<h2>30secondstogetit.</h2><pclass="sub">Filmedintheapp:thedemofromthedriver’sseat,thelookinthemirror,thetoycar,driving,bydayandatnight.</p>
-<videocontrolsplaysinlinepreload="none"poster="assets/b03-en.jpg"src="assets/video-en.mp4"></video>
-</div></section>
-<sectionclass="sectionsoft"id="methode-en"><divclass="wrap">
-<h2class="center">Watch,understand,thendoit.</h2><pclass="subcenter">Thesamemethodasadrivinglesson,atyourownpace,asmanytimesasyouneed.</p>
-<divclass="cards"><articleclass="card"><imgsrc="assets/b03-en.jpg"alt="Watch"loading="lazy"><h3>Watch</h3><p>Thedemostopsoneverycueandexplainsit,withatop-downviewsoyoualwaysknowwhereyouare.</p></article><articleclass="card"><imgsrc="assets/b04-en.jpg"alt="Understand"loading="lazy"><h3>Understand</h3><p>Pushthetoycarwithafinger:seehowacarpivotsarounditsrearwheels.</p></article><articleclass="card"><imgsrc="assets/b05-en.jpg"alt="Doit"loading="lazy"><h3>Doit</h3><p>Takethewheel:forwardandreverse,mirrors,backupcamera.Guided,thenCues,thenTest.</p></article></div>
-</div></section>
-<sectionclass="section"id="manoeuvres-en"><divclass="wrap">
-<h2class="center">Everymaneuver.Everysituation.</h2><pclass="subcenternarrowp">Parallelparkingonbothsides,pullingout,perpendicularparkingbackinginornosefirst,angledparking.Fromroomyspotstoverytightones,downtown,residentialorseaside,byday,atnightorintherain.</p>
-<divclass="gallery"><figure><imgsrc="assets/b02-en.jpg"alt="Lookingoveryourshoulder"loading="lazy"><figcaption>Lookingoveryourshoulder</figcaption></figure><figure><imgsrc="assets/b06-en.jpg"alt="Perpendicularandangled"loading="lazy"><figcaption>Perpendicularandangled</figcaption></figure><figure><imgsrc="assets/b07-en.jpg"alt="Atnightandintherain"loading="lazy"><figcaption>Atnightandintherain</figcaption></figure><figure><imgsrc="assets/b08-en.jpg"alt="Aprecisereview,everytime"loading="lazy"><figcaption>Aprecisereview,everytime</figcaption></figure></div>
-<ulclass="ticks"><li>Parallelparkinginthreemoves(45°)orintwo</li><li>Perpendicular,backinginornosefirst,andangled</li><li>Acarparkedatanangle,apost,avan,ahighcurb</li><li>Trafficwithapedestrianandacyclist</li><li>MyCar:thelessontakesyourmodel’ssize</li><li>InMyCar:avoiceco-pilot,whileparked</li></ul>
-</div></section>
-<sectionclass="sectionsoft"id="prix-en"><divclass="wrapnarrowcenter">
-<divclass="price"><imgsrc="assets/app-icon.png"alt=""class="price-icon"><h2>Oneprice.Everythingincluded.</h2><pclass="sub">Nosubscription,noads,noin-apppurchases.Everymaneuverandeverylevel,forgood.</p>
-<pclass="note">Lessthanaquarterofanhourofdrivinglessons.</p><aclass="btnprimary"href="https://apps.apple.com/app/id6836559840"rel="noopener">OntheAppStore</a></div>
-</div></section>
-<sectionclass="section"><divclass="wrapnarrow">
-<h2class="center">FAQ</h2><divclass="faq"><details><summary>Doesitreplacedrivinglessons?</summary><p>No.EasyParallelhelpsyouunderstandthepathsandthecuesbeforeandbetweenyourlessons.Itdoesnotreplaceadrivinginstructor.</p></details><details><summary>Whichdevices?</summary><p>iPhone.TheappisinEnglishandFrench.</p></details><details><summary>DoIneedtheinternet?</summary><p>No,everythingworksoffline,exceptlookingupacarmodelthatisnotinthecatalogue.</p></details><details><summary>Aquestionoraproblem?</summary><p>Writetousfromthesupportpage;wereplyinEnglishorFrench.</p></details></div>
-<pclass="centersubsmall">🔒<strong>YourdatastaysonyouriPhone.</strong>Noaccount,nodatacollection,notracking.Readthe<ahref="privacy.html#en">privacypolicy</a>.</p>
-</div></section>
-<sectionclass="final"><divclass="wrapcenter"><h2>Readytonailyourparking?</h2><aclass="btnprimary"href="https://apps.apple.com/app/id6836559840"rel="noopener">OntheAppStore</a></div></section>
-</main>
-<footer><divclass="wrap">©2026Simorgh·EasyParallel·<ahref="support.html#en">Support</a>·<ahref="privacy.html#en">Privacy</a></div></footer>
+<div class="lang-en" lang="en">
+  <header class="top"><div class="inner">
+    <a class="brand" href="#"><img src="assets/app-icon.png" alt=""><span>Easy Parallel</span></a>
+    <nav class="links"><a href="#methode-en">The method</a><a href="#video-en">Video</a><a href="#manoeuvres-en">Maneuvers</a><a href="#prix-en">Price</a></nav>
+    <button class="switch" type="button" data-to="fr">FR</button>
+    <a class="nav-cta" href="https://apps.apple.com/app/id6836559840" rel="noopener">Download</a>
+  </div></header>
+  <main>
+    <section class="hero"><div class="wrap">
+      <div class="hero-text">
+        <p class="eyebrow">The 3D parking school</p>
+        <h1>Parallel parking,<br><span class="accent">made easy.</span></h1>
+        <p class="lead">Learn to park the way you do in a real car: from the driver’s seat, with the cues driving instructors use. You see exactly where to look, right on time.</p>
+        <div class="actions"><a class="btn primary" href="https://apps.apple.com/app/id6836559840" rel="noopener"> On the App Store</a><a class="btn ghost" href="#video-en">▶ Watch the video</a></div>
+        <div class="chips"><span>Driver’s view</span><span>Real mirrors</span><span>Backup camera</span><span>English · Français</span></div>
+      </div>
+      <img class="hero-shot" src="assets/s-seat-en.jpg" alt="Parallel parking, made easy: the driver’s view in the app">
+    </div></section>
+    <section class="section" id="video-en"><div class="wrap narrow center">
+      <h2>30 seconds to get it.</h2><p class="sub">Filmed in the app: the demo from the driver’s seat, the look in the mirror, the toy car, driving, by day and at night.</p>
+      <video controls playsinline preload="none" poster="assets/s-exterior-en.jpg" src="assets/video-en.mp4"></video>
+    </div></section>
+    <section class="section soft" id="methode-en"><div class="wrap">
+      <h2 class="center">Watch, understand, then do it.</h2><p class="sub center">The same method as a driving lesson, at your own pace, as many times as you need.</p>
+      <div class="cards"><article class="card"><img src="assets/s-exterior-en.jpg" alt="Watch" loading="lazy"><h3>Watch</h3><p>The demo stops on every cue and explains it, with a top-down view so you always know where you are.</p></article><article class="card"><img src="assets/s-toy-en.jpg" alt="Understand" loading="lazy"><h3>Understand</h3><p>Push the toy car with a finger: see how a car pivots around its rear wheels.</p></article><article class="card"><img src="assets/s-camera-en.jpg" alt="Do it" loading="lazy"><h3>Do it</h3><p>Take the wheel: forward and reverse, mirrors, backup camera. Guided, then Cues, then Test.</p></article></div>
+    </div></section>
+    <section class="section" id="manoeuvres-en"><div class="wrap">
+      <h2 class="center">Every maneuver. Every situation.</h2><p class="sub center narrowp">Parallel parking on both sides, pulling out, perpendicular parking backing in or nose first, angled parking. From roomy spots to very tight ones, downtown, residential or seaside, by day, at night or in the rain.</p>
+      <div class="gallery"><figure><img src="assets/s-shoulder-en.jpg" alt="Looking over your shoulder" loading="lazy"><figcaption>Looking over your shoulder</figcaption></figure><figure><img src="assets/s-maneuver-en.jpg" alt="Perpendicular and angled" loading="lazy"><figcaption>Perpendicular and angled</figcaption></figure><figure><img src="assets/s-night-en.jpg" alt="At night and in the rain" loading="lazy"><figcaption>At night and in the rain</figcaption></figure><figure><img src="assets/s-review-en.jpg" alt="A precise review, every time" loading="lazy"><figcaption>A precise review, every time</figcaption></figure></div>
+      <ul class="ticks"><li>Parallel parking in three moves (45°) or in two</li><li>Perpendicular, backing in or nose first, and angled</li><li>A car parked at an angle, a post, a van, a high curb</li><li>Traffic with a pedestrian and a cyclist</li><li>My Car: the lesson takes your model’s size</li><li>In My Car: a voice co-pilot, while parked</li></ul>
+    </div></section>
+    <section class="section soft" id="prix-en"><div class="wrap narrow center">
+      <div class="price"><img src="assets/app-icon.png" alt="" class="price-icon"><h2>One price. Everything included.</h2><p class="sub">No subscription, no ads, no in-app purchases. Every maneuver and every level, for good.</p>
+        <p class="note">Less than a quarter of an hour of driving lessons.</p><a class="btn primary" href="https://apps.apple.com/app/id6836559840" rel="noopener"> On the App Store</a></div>
+    </div></section>
+    <section class="section"><div class="wrap narrow">
+      <h2 class="center">FAQ</h2><div class="faq"><details><summary>Does it replace driving lessons?</summary><p>No. Easy Parallel helps you understand the paths and the cues before and between your lessons. It does not replace a driving instructor.</p></details><details><summary>Which devices?</summary><p>iPhone. The app is in English and French.</p></details><details><summary>Do I need the internet?</summary><p>No, everything works offline, except looking up a car model that is not in the catalogue.</p></details><details><summary>A question or a problem?</summary><p>Write to us from the support page; we reply in English or French.</p></details></div>
+      <p class="center sub small">🔒 <strong>Your data stays on your iPhone.</strong> No account, no data collection, no tracking. Read the <a href="privacy.html#en">privacy policy</a>.</p>
+    </div></section>
+    <section class="final"><div class="wrap center"><h2>Ready to nail your parking?</h2><a class="btn primary" href="https://apps.apple.com/app/id6836559840" rel="noopener"> On the App Store</a></div></section>
+  </main>
+  <footer><div class="wrap">© 2026 Simorgh · Easy Parallel · <a href="support.html#en">Support</a> · <a href="privacy.html#en">Privacy</a></div></footer>
 </div>
 </body>
 </html>
