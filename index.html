@@ -64,13 +64,18 @@ video{width:100%;border-radius:18px;border:1px solid var(--line);background:#000
 .gallery figure{margin:0}.gallery img{border-radius:16px;border:1px solid var(--line)}.gallery figcaption{color:var(--muted);font-size:.92rem;margin-top:8px}
 .ticks{list-style:none;padding:0;display:grid;grid-template-columns:repeat(2,1fr);gap:10px 28px;max-width:52rem;margin:0 auto}
 .ticks li{color:var(--white);padding-left:28px;position:relative}.ticks li:before{content:"✓";position:absolute;left:0;color:var(--lime);font-weight:900}
+.phones{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin:8px 0 36px}
+.phones figure{margin:0;text-align:center}.phones img{width:100%;max-width:280px;margin:0 auto 16px;border-radius:30px;border:1px solid var(--line);box-shadow:0 24px 60px rgba(0,0,0,.45)}
+.phones h3{margin:0 0 6px;font-size:1.15rem;color:var(--lime)}.phones p{margin:0 auto;color:var(--muted);max-width:20rem}
+.sub.narrowp{margin-left:auto;margin-right:auto}
+.safe{max-width:52rem;margin:28px auto 0;background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:18px 22px;color:var(--muted)}.safe strong{color:var(--white)}
 .price{background:var(--panel);border:1px solid var(--line);border-radius:24px;padding:40px 24px}.price-icon{width:84px;height:84px;border-radius:20px;margin:0 auto 18px}
 .note{color:var(--lime);font-weight:700;margin:-12px 0 24px}
 .faq details{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin-bottom:10px}
 .faq summary{cursor:pointer;font-weight:700}.faq p{color:var(--muted);margin:10px 0 0}
 .final{padding:72px 0;background:radial-gradient(40rem 20rem at 50% 120%,rgba(213,244,120,.16),transparent 70%)}
 footer{border-top:1px solid var(--line);padding:26px 0;color:var(--muted);font-size:.9rem}footer a{color:var(--muted)}
-@media (max-width:860px){.hero .wrap{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.links{display:none}.switch{margin-left:auto}}
+@media (max-width:860px){.phones{grid-template-columns:1fr;gap:40px}.hero .wrap{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.links{display:none}.switch{margin-left:auto}}
 @media (max-width:560px){.gallery,.ticks{grid-template-columns:1fr}.hero{padding-top:44px}.section{padding:56px 0}.nav-cta{display:none}}
 </style>
 </head>
@@ -79,7 +84,7 @@ footer{border-top:1px solid var(--line);padding:26px 0;color:var(--muted);font-s
 <div class="lang-fr" lang="fr">
   <header class="top"><div class="inner">
     <a class="brand" href="#"><img src="assets/app-icon.png" alt=""><span>Créneau Facile</span></a>
-    <nav class="links"><a href="#methode-fr">La méthode</a><a href="#video-fr">Vidéo</a><a href="#manoeuvres-fr">Manœuvres</a><a href="#prix-fr">Prix</a></nav>
+    <nav class="links"><a href="#methode-fr">La méthode</a><a href="#video-fr">Vidéo</a><a href="#manoeuvres-fr">Manœuvres</a><a href="#voiture-fr">Dans ma voiture</a><a href="#prix-fr">Prix</a></nav>
     <button class="switch" type="button" data-to="en">EN</button>
     <a class="nav-cta" href="https://apps.apple.com/app/id6836559840" rel="noopener">Télécharger</a>
   </div></header>
@@ -92,7 +97,7 @@ footer{border-top:1px solid var(--line);padding:26px 0;color:var(--muted);font-s
         <p class="lead">Apprenez à vous garer comme dans une vraie voiture : assis à la place du conducteur, avec les repères des moniteurs d’auto-école. Vous voyez exactement où regarder, au bon moment.</p>
         <div class="actions"><a class="badge" href="https://apps.apple.com/app/id6836559840" rel="noopener"><img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/fr-fr" alt="Télécharger dans l’App Store" width="168" height="56"></a><a class="btn ghost" href="#video-fr">▶ Voir la vidéo</a></div>
         <p class="buyline">4,99 €, une seule fois · sans abonnement ni pub</p>
-        <div class="chips"><span>Vue du siège</span><span>Vrais rétroviseurs</span><span>Caméra de recul</span><span>Français · English</span></div>
+        <div class="chips"><span>Vue du siège</span><span>Vrais rétroviseurs</span><span>Caméra de recul</span><span>Copilote dans votre voiture</span><span>Français · English</span></div>
       </div>
       <img class="hero-shot" src="assets/s-seat-fr.jpg" alt="Le créneau, enfin facile : vue du siège dans l’appli">
     </div></section>
@@ -107,13 +112,20 @@ footer{border-top:1px solid var(--line);padding:26px 0;color:var(--muted);font-s
     <section class="section" id="manoeuvres-fr"><div class="wrap">
       <h2 class="center">Toutes les manœuvres. Toutes les situations.</h2><p class="sub center narrowp">Créneau à droite et à gauche, sortie de place, bataille en marche avant ou arrière, épi. Des places larges aux très serrées, en centre-ville, en résidence ou en bord de mer, de jour, de nuit ou sous la pluie.</p>
       <div class="gallery"><figure><img src="assets/s-shoulder-fr.jpg" alt="Le regard par-dessus l’épaule" loading="lazy"><figcaption>Le regard par-dessus l’épaule</figcaption></figure><figure><img src="assets/s-maneuver-fr.jpg" alt="Bataille et épi" loading="lazy"><figcaption>Bataille et épi</figcaption></figure><figure><img src="assets/s-night-fr.jpg" alt="De nuit et sous la pluie" loading="lazy"><figcaption>De nuit et sous la pluie</figcaption></figure><figure><img src="assets/s-review-fr.jpg" alt="Un bilan précis à chaque essai" loading="lazy"><figcaption>Un bilan précis à chaque essai</figcaption></figure></div>
-      <ul class="ticks"><li>Créneau en trois temps (45°) ou en deux temps</li><li>Bataille en marche arrière ou en marche avant, et épi</li><li>Voiture garée de travers, poteau, camionnette, trottoir haut</li><li>Circulation avec piéton et cycliste</li><li>« Ma voiture » : la leçon prend la taille de votre modèle</li><li>« Dans ma voiture » : un copilote à la voix, à l’arrêt</li></ul>
+      <ul class="ticks"><li>Créneau en trois temps (45°) ou en deux temps</li><li>Bataille en marche arrière ou en marche avant, et épi</li><li>Voiture garée de travers, poteau, camionnette, trottoir haut</li><li>Circulation avec piéton et cycliste</li><li>« Ma voiture » : la leçon prend la taille de votre modèle</li><li>« Dans ma voiture » : un copilote à la voix (voir plus bas)</li></ul>
     </div></section>
-    <section class="section soft" id="prix-fr"><div class="wrap narrow center">
+    <section class="section soft" id="voiture-fr"><div class="wrap">
+      <p class="eyebrow center">Dans ma voiture</p>
+      <h2 class="center">Puis, dans votre vraie voiture.</h2><p class="sub center narrowp">Téléphone fixé sur un support, l’appli devient votre copilote à la voix : elle vous guide étape par étape dans votre vrai créneau, à la taille de votre voiture.</p>
+      <div class="phones"><figure><img src="assets/car-1-fr.jpg" alt="Choix de la manœuvre dans « Dans ma voiture »" loading="lazy"><h3>Choisissez</h3><p>Créneau en 2 ou 3 temps, ou sortie de place, à droite ou à gauche. L’appli calcule la place qu’il vous faut.</p></figure><figure><img src="assets/car-2-fr.jpg" alt="Étape guidée avec l’angle de la voiture" loading="lazy"><h3>Laissez-vous guider</h3><p>Une étape à la fois, à voix haute. Le téléphone mesure l’angle de la voiture et vous annonce « 45° ».</p></figure><figure><img src="assets/car-3-fr.jpg" alt="Répétition à l’arrêt, geste par geste" loading="lazy"><h3>Répétez à l’arrêt</h3><p>Moteur coupé, l’appli dicte chaque geste (volant, rétros, angle mort), avec un chrono et un compteur.</p></figure></div>
+      <ul class="ticks"><li>Mains libres : « c’est bon », « répète », « retour »</li><li>Vos photos de repères, remontrées au bon moment</li><li>Créneau en 2 temps, en 3 temps (45°), ou sortie</li><li>Place à droite ou à gauche</li></ul>
+      <p class="safe small">🛡️ <strong>Six règles de sécurité avant de commencer.</strong> Téléphone sur un support, toujours au pas, dans une rue calme, de préférence avec un accompagnateur. Le téléphone mesure l’angle de la voiture, pas les distances : vous restez seul responsable.</p>
+    </div></section>
+    <section class="section" id="prix-fr"><div class="wrap narrow center">
       <div class="price"><img src="assets/app-icon.png" alt="" class="price-icon"><h2>4,99 €. Une fois. Tout est inclus.</h2><p class="sub">Pas d’abonnement, pas de publicité, pas d’achat intégré. Toutes les manœuvres et tous les niveaux, pour toujours.</p>
         <p class="note">Moins cher qu’un quart d’heure de leçon de conduite.</p><a class="badge" href="https://apps.apple.com/app/id6836559840" rel="noopener"><img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/fr-fr" alt="Télécharger dans l’App Store" width="168" height="56"></a></div>
     </div></section>
-    <section class="section"><div class="wrap narrow">
+    <section class="section soft"><div class="wrap narrow">
       <h2 class="center">Questions fréquentes</h2><div class="faq"><details><summary>Est-ce que ça remplace l’auto-école ?</summary><p>Non. Créneau Facile vous fait comprendre les trajectoires et les repères avant et entre vos leçons. Il ne remplace pas un enseignant de la conduite.</p></details><details><summary>Sur quels appareils ?</summary><p>iPhone. L’appli est en français et en anglais.</p></details><details><summary>Faut-il internet ?</summary><p>Non, tout fonctionne hors ligne, sauf la recherche d’un modèle de voiture absent du catalogue.</p></details><details><summary>Une question, un problème ?</summary><p>Écrivez-nous depuis la page d’assistance, on répond en français ou en anglais.</p></details></div>
       <p class="center sub small">🔒 <strong>Vos données restent sur votre iPhone.</strong> Aucun compte, aucune collecte, aucun pistage. Lire la <a href="privacy.html#fr">politique de confidentialité</a>.</p>
     </div></section>
@@ -125,7 +137,7 @@ footer{border-top:1px solid var(--line);padding:26px 0;color:var(--muted);font-s
 <div class="lang-en" lang="en">
   <header class="top"><div class="inner">
     <a class="brand" href="#"><img src="assets/app-icon.png" alt=""><span>Easy Parallel</span></a>
-    <nav class="links"><a href="#methode-en">The method</a><a href="#video-en">Video</a><a href="#manoeuvres-en">Maneuvers</a><a href="#prix-en">Price</a></nav>
+    <nav class="links"><a href="#methode-en">The method</a><a href="#video-en">Video</a><a href="#manoeuvres-en">Maneuvers</a><a href="#voiture-en">In My Car</a><a href="#prix-en">Price</a></nav>
     <button class="switch" type="button" data-to="fr">FR</button>
     <a class="nav-cta" href="https://apps.apple.com/app/id6836559840" rel="noopener">Download</a>
   </div></header>
@@ -138,7 +150,7 @@ footer{border-top:1px solid var(--line);padding:26px 0;color:var(--muted);font-s
         <p class="lead">Learn to park the way you do in a real car: from the driver’s seat, with the cues driving instructors use. You see exactly where to look, right on time.</p>
         <div class="actions"><a class="badge" href="https://apps.apple.com/app/id6836559840" rel="noopener"><img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us" alt="Download on the App Store" width="168" height="56"></a><a class="btn ghost" href="#video-en">▶ Watch the video</a></div>
         <p class="buyline">One-time purchase · no subscription, no ads</p>
-        <div class="chips"><span>Driver’s view</span><span>Real mirrors</span><span>Backup camera</span><span>English · Français</span></div>
+        <div class="chips"><span>Driver’s view</span><span>Real mirrors</span><span>Backup camera</span><span>Copilot in your car</span><span>English · Français</span></div>
       </div>
       <img class="hero-shot" src="assets/s-seat-en.jpg" alt="Parallel parking, made easy: the driver’s view in the app">
     </div></section>
@@ -153,13 +165,20 @@ footer{border-top:1px solid var(--line);padding:26px 0;color:var(--muted);font-s
     <section class="section" id="manoeuvres-en"><div class="wrap">
       <h2 class="center">Every maneuver. Every situation.</h2><p class="sub center narrowp">Parallel parking on both sides, pulling out, perpendicular parking backing in or nose first, angled parking. From roomy spots to very tight ones, downtown, residential or seaside, by day, at night or in the rain.</p>
       <div class="gallery"><figure><img src="assets/s-shoulder-en.jpg" alt="Looking over your shoulder" loading="lazy"><figcaption>Looking over your shoulder</figcaption></figure><figure><img src="assets/s-maneuver-en.jpg" alt="Perpendicular and angled" loading="lazy"><figcaption>Perpendicular and angled</figcaption></figure><figure><img src="assets/s-night-en.jpg" alt="At night and in the rain" loading="lazy"><figcaption>At night and in the rain</figcaption></figure><figure><img src="assets/s-review-en.jpg" alt="A precise review, every time" loading="lazy"><figcaption>A precise review, every time</figcaption></figure></div>
-      <ul class="ticks"><li>Parallel parking in three moves (45°) or in two</li><li>Perpendicular, backing in or nose first, and angled</li><li>A car parked at an angle, a post, a van, a high curb</li><li>Traffic with a pedestrian and a cyclist</li><li>My Car: the lesson takes your model’s size</li><li>In My Car: a voice co-pilot, while parked</li></ul>
+      <ul class="ticks"><li>Parallel parking in three moves (45°) or in two</li><li>Perpendicular, backing in or nose first, and angled</li><li>A car parked at an angle, a post, a van, a high curb</li><li>Traffic with a pedestrian and a cyclist</li><li>My Car: the lesson takes your model’s size</li><li>In My Car: a voice copilot (see below)</li></ul>
     </div></section>
-    <section class="section soft" id="prix-en"><div class="wrap narrow center">
+    <section class="section soft" id="voiture-en"><div class="wrap">
+      <p class="eyebrow center">In My Car</p>
+      <h2 class="center">Then, in your real car.</h2><p class="sub center narrowp">With your phone in a mount, the app becomes your voice copilot: it guides you step by step through your real parallel park, sized for your own car.</p>
+      <div class="phones"><figure><img src="assets/car-1-en.jpg" alt="Choosing the maneuver in In My Car" loading="lazy"><h3>Choose</h3><p>Park in 2 or 3 steps, or pull out, on the right or on the left. The app works out the space you need.</p></figure><figure><img src="assets/car-2-en.jpg" alt="A guided step with the car’s angle" loading="lazy"><h3>Get guided</h3><p>One step at a time, out loud. The phone measures the car’s angle and calls out “45°.”</p></figure><figure><img src="assets/car-3-en.jpg" alt="Stationary practice, move by move" loading="lazy"><h3>Rehearse while parked</h3><p>Engine off, the app talks you through each move (wheel, mirrors, blind spot), with a timer and a rep counter.</p></figure></div>
+      <ul class="ticks"><li>Hands-free: “done,” “repeat,” “back”</li><li>Your own cue photos, shown at the right moment</li><li>Park in 2 steps, in 3 steps (45°), or pull out</li><li>Space on the right or on the left</li></ul>
+      <p class="safe small">🛡️ <strong>Six safety rules before you start.</strong> Phone in a mount, always at a crawl, on a quiet street, ideally with someone beside you. The phone measures the car’s angle, not distances: you stay fully responsible.</p>
+    </div></section>
+    <section class="section" id="prix-en"><div class="wrap narrow center">
       <div class="price"><img src="assets/app-icon.png" alt="" class="price-icon"><h2>One price. Everything included.</h2><p class="sub">No subscription, no ads, no in-app purchases. Every maneuver and every level, for good.</p>
         <p class="note">Less than a quarter of an hour of driving lessons.</p><a class="badge" href="https://apps.apple.com/app/id6836559840" rel="noopener"><img src="https://toolbox.marketingtools.apple.com/api/v2/badges/download-on-the-app-store/black/en-us" alt="Download on the App Store" width="168" height="56"></a></div>
     </div></section>
-    <section class="section"><div class="wrap narrow">
+    <section class="section soft"><div class="wrap narrow">
       <h2 class="center">FAQ</h2><div class="faq"><details><summary>Does it replace driving lessons?</summary><p>No. Easy Parallel helps you understand the paths and the cues before and between your lessons. It does not replace a driving instructor.</p></details><details><summary>Which devices?</summary><p>iPhone. The app is in English and French.</p></details><details><summary>Do I need the internet?</summary><p>No, everything works offline, except looking up a car model that is not in the catalogue.</p></details><details><summary>A question or a problem?</summary><p>Write to us from the support page; we reply in English or French.</p></details></div>
       <p class="center sub small">🔒 <strong>Your data stays on your iPhone.</strong> No account, no data collection, no tracking. Read the <a href="privacy.html#en">privacy policy</a>.</p>
     </div></section>
